@@ -1,0 +1,24 @@
+{
+  "name": "bot-nodejs",
+  "version": "1.0.0",
+  "description": "Gabut doang dikasi tau temen ditantang buat bot ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "author": "Fanndev",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "chalk": "^5.3.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.3",
+    "nodemon": "^3.1.0",
+    "openai": "^4.28.4",
+    "qrcode-terminal": "^0.12.0",
+    "sharp": "^0.33.2",
+    "twilio": "^4.23.0",
+    "whatsapp-web.js": "^1.23.0"
+  }
+}
